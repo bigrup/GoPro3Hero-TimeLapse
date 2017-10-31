@@ -1,0 +1,1 @@
+./ffmpeg -framerate 24 -i rup%05d.jpg -c:v libx264 -r 24 output.mp4
